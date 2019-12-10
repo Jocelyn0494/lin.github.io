@@ -26,7 +26,7 @@
 <link rel="shortcut icon" href="/images/favicon.png">
 
 
-<title>hello world - Hexo</title>
+<title>hello world - Lin&#39;s Blog</title>
 
 <meta name="keywords" content="">
 
@@ -251,6 +251,13 @@
             localSearch: { dbPath: '' },
             readMode: 'day'
         };
+        
+            jsi_config.localSearch = {
+                dbPath: '/search.json',
+                trigger: 'auto',
+                topN: '1',
+                unescape: 'false'
+            }
         
         SimpleCore.init(jsi_config);
         
